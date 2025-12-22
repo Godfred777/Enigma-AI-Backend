@@ -1,0 +1,26 @@
+# Git
+.git
+.gitignore
+
+# Python / Local Env
+__pycache__
+*.pyc
+.venv
+venv/
+env/
+.env             # NEVER copy your local .env file to the image!
+.env.local
+
+# Testing
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Misc
+README.md
+requirements-dev.txt
